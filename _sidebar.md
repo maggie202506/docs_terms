@@ -10,6 +10,6 @@
   * [参数](switch.md#参数表)
 
 * 鼠标
-  * [词库](mouse.md#术语)
-  * [句库](mouse.md#常用句子)
-  * [参数](mouse.md#参数表)
+  * [词库](mouse/term.md)
+  * [句库](mouse/sentence.md)
+  * [参数](mouse/specification.md)

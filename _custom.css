@@ -1,0 +1,51 @@
+<style>
+/* -----------------------
+   Docsify 自适应通用 Markdown 表格
+   ----------------------- */
+
+/* 表格整体 */
+table {
+    table-layout: fixed;       /* 固定列宽 */
+    width: 100%;               /* 占满容器宽度 */
+    border-collapse: collapse; /* 边框折叠 */
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+
+/* 表头和单元格 */
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+    word-wrap: break-word;      /* 自动换行 */
+    overflow-wrap: break-word;
+}
+
+/* 表头背景 */
+table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* 鼠标悬停高亮 */
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* 自动平均分配列宽 */
+table th, table td {
+    width: auto; /* 初始自动，根据列数自动分配 */
+}
+
+/* 响应式处理：小屏幕横向滚动 */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap; /* 保持一行滚动显示 */
+    }
+    table th, table td {
+        width: auto; /* 小屏幕不固定宽度，避免挤压 */
+    }
+}
+</style>
