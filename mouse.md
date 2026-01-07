@@ -1,6 +1,6 @@
-# Mouse 产品线术语与句库
+# Mouse 文库
 
-## 1. 术语
+## 术语
 
 ### DPI
 - English: Dots Per Inch
@@ -24,7 +24,7 @@
 
 ---
 
-## 2. 常用句子
+## 常用句子
 
 ### Mouse-FUNC-001
 - English: The mouse supports multiple DPI settings.
@@ -43,7 +43,7 @@
 
 ---
 
-## 3. 参数表字段示例
+## 参数表
 
 | English Field | Chinese Field | Default / Unit |
 |---------------|--------------|----------------|
