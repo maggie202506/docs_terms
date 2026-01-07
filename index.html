@@ -2,25 +2,27 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Docs Terms</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base href="/docs_terms/">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <title>Docs Term Library</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Loading...</div>
 
   <script>
     window.$docsify = {
-      name: 'Docs Terms',
+      name: 'Docs Library',
       repo: '',
       loadSidebar: true,
-      subMaxLevel: 2,
-      search: 'auto',
-      basePath: '/docs_terms/'
-    };
+      subMaxLevel: 2,      // 自动生成子目录
+      search: 'auto',      // 搜索框启用
+    }
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Docsify Core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- Plugins: Search -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
 </body>
 </html>
